@@ -4,8 +4,8 @@ public class AlgoSwap {
         int b ;
         int temp;
 
-        a=1 ;
-        b=4 ;
+        a=14 ;
+        b=44 ;
         temp = a ;
         a = b ;
         b = temp ;
