@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// Sum of Numbers from 1 to n 
+// By 0(n)-[Constant] Time Complexity
 public class ConstantTC {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
