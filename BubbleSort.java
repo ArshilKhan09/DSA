@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// O(n^2) Time Complexity of BubbleSort ...because 
+// O(n^2) Time Complexity of BubbleSort 
 /* Why O(n²)?
     Outer loop runs (n-1) times → ~ n times.
     Inner loop runs (n-1), (n-2), (n-3)... 1 times.
