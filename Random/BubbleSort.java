@@ -1,4 +1,4 @@
-package Random;
+
 import java.util.Scanner;
 
 // O(n^2) Time Complexity of BubbleSort 
