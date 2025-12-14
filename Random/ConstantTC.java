@@ -1,4 +1,3 @@
-package Random;
 import java.util.Scanner;
 
 // Sum of Numbers from 1 to n 
