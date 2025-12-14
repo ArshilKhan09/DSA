@@ -1,4 +1,4 @@
-package Patterns;
+
 public class Pattern4 {
      /* Print the Pattern 
 
