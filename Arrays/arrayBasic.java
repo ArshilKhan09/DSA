@@ -22,7 +22,7 @@ public class arrayBasic {
 
             //DISADVANTAGE
 
-            //ARRAY CANNOT BE INSERT OR DELETE AT RANDOM LOCATION
+            //ARRAY CANNOT BE INSERT OR DELETE AT RANDOM/MIDDLE LOCATION
             //IT CAN BE INSERT OR DELETE AT LAST 
             System.out.println("Updated Array :");
             System.out.println();
