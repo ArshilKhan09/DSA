@@ -14,7 +14,7 @@ public class twoSum {
         System.out.print("Sorted Array is :");
         System.out.println(Arrays.toString(arr));
 
-        findTarget(arr,12);
+        findTarget(arr,9);
     }
 
      public static void findTarget(int[] arr, int target) {
