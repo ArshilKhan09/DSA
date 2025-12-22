@@ -27,10 +27,7 @@ public class twoSum {
             int sum = arr[left] + arr[right];
 
             if (sum == target) {
-                System.out.println(
-                    "The numbers whose sum is " + target + " are : "
-                    + arr[left] + ", " + arr[right]
-                );
+                System.out.println(arr[left] +" "+ arr[right]);
                 return; 
             } 
             else if (sum < target) {
