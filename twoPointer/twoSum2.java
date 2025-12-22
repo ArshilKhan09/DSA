@@ -3,7 +3,7 @@ import java.util.Arrays;
 // Question return 2 Number from Array whose Sum is equal to Target without Creating an extra space 
 // array is [7,2,5,1,3] 
 // Target = 6
-public class twoSum {
+public class twoSum2 {
     public static void main(String[] args) {
     
         int[] arr = {7,2,5,1,3};
