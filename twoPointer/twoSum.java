@@ -1,28 +1,21 @@
-public class twoSum {
-    public static void main(String[] args) {
-       int[] nums = {3,2,4};
-       int target = 6 ;
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int i=0;
+        int j=nums.length-1;
 
-       Solution(nums, target);
+        while(i<j){
+            int sum = nums[i]+nums[j];
 
-    }
-    public static void Solution(int[] nums , int target){
-        int left = 0 ;
-        int right = nums.length-1;
-
-        while (left < right) {
-            int sum = nums[left]+nums[right];
-
-            if (sum == target) {
-                return new int[] {nums[left] , nums[right]} ;
+            if(sum == target){
+                return new int[] {i , j} ;
             }
             else if (sum < target){
-                left++;
+                i++ ;
             }
             else{
-                right--;
+                j-- ;
             }
         }
-        
+        return new int[] {1 , 2};
     }
 }
