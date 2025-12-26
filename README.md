@@ -1,7 +1,8 @@
-### 📚 DATA STRUCTURES AND ALGORITHMS
+# 📚 DATA STRUCTURES AND ALGORITHMS
+
 A structured and continuously evolving repository for mastering Data Structures and Algorithms using Java. This repo documents my DSA journey with clean implementations, problem-solving practice, and revision-friendly notes, aimed at building strong fundamentals and interview readiness.
 
-### 📌 Why this Repository?
+## 📌 Why this Repository?
 
 This repository is not just a collection of solved problems. It is designed to:
 
@@ -15,7 +16,9 @@ Prepare for coding interviews and competitive programming
 
 Serve as a quick revision resource before exams or interviews
 
-### 🛠 Tech Stack
+
+
+## 🛠 Tech Stack
 
 Language: Java
 
@@ -27,7 +30,7 @@ Practice Platforms: LeetCode, GeeksforGeeks, CodeStudio
 
 
 
-### 📅 Progress Tracking
+## 📅 Progress Tracking
 
 Regular commits to maintain consistency
 
@@ -35,17 +38,15 @@ Each commit reflects a meaningful learning step
 
 Problems are added topic-wise
 
-### 🎯 Goals
+## 🎯 Goals
 
 Master core DSA concepts
 
-Solve 300+ quality DSA problems
-
-Crack product-based company interviews
+To Solve 300+ quality DSA problems
 
 Build strong logical thinking as a software engineer
 
-### 🤝 Contributions
+## 🤝 Contributions
 
 This is a personal learning repository, but suggestions and improvements are always welcome. Feel free to:
 
@@ -59,7 +60,7 @@ Share learning resources
 
 Give this repository a ⭐ to support and stay connected.
 
-### 📬 Connect With Me
+## 📬 Connect With Me
 
 GitHub: https://github.com/ArshilKhan09
 
