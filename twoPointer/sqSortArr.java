@@ -1,26 +1,29 @@
 public class sqSortArr {
     public static void main(String[] args) {
-        int[] arr = {-4,-1,0,3,10} ;
+        int[] nums = {-4,-1,0,3,10} ;
 
-        for(int i=0 ; i<arr.length ; i++){
-            arr[i] = arr[i]*arr[i] ;
-        }
-
+        int result[] = new int[nums.length];
         int left=0;
-        int right=1;
-        while (right < arr.length) {
-            if (arr[left] > arr[right]) {
-                left=right;
-                right++ ;
-            }
-            else if(arr[left] < arr[right]){
+        int right=nums.length-1;
+        int index=nums.length-1;
+
+        while (left<=right) {
+            int leftsq = nums[left]*nums[left];
+            int rightsq = nums[right]*nums[right];
+
+            if (leftsq > rightsq) {
+                result[index] = leftsq ;
                 left++;
-                right--;
             }
             else{
-                right++;
+                result[index] = rightsq ;
+                right--;
             }
+            index--;
         }
-        return arr;
+
+        for(int i = 0 ; i < result.length ; i++){
+            System.out.print(result[i]+" ");
+        }
     }
 }
